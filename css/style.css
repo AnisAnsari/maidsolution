@@ -392,43 +392,26 @@ h6,
 }
 
 /*** Service ***/
-.service-item {
-  position: relative;
-  height: 300px;
-  padding: 0 30px;
-  transition: 0.5s;
+.our-service .text-limit {
+  color: #484444cc;
+  line-height: 1.7rem;
+}
+.our-service img {
+  width: auto;
+  height: 200px;
+  padding: 20px;
 }
 
-.service-item .service-icon {
-  margin-bottom: 30px;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--primary);
-  border-radius: 2px;
-  transform: rotate(-45deg);
+/* *** About Us *** */
+.about-us img {
+  width: 100%;
+  height: 350px;
 }
-
-.service-item .service-icon i {
-  transform: rotate(45deg);
+.about-us .jumbotron {
+  /* width: 100%; */
+  height: 350px !important;
+  background-color: #f7f7f7;
 }
-
-.service-item a.btn {
-  position: absolute;
-  width: 60px;
-  bottom: -48px;
-  left: 50%;
-  margin-left: -30px;
-  opacity: 0;
-}
-
-.service-item:hover a.btn {
-  bottom: -24px;
-  opacity: 1;
-}
-
 /*** Testimonial ***/
 .testimonial-carousel .owl-dots {
   margin-top: 15px;
@@ -537,10 +520,15 @@ h6,
 @media (min-width: 991.98px) {
   .facts {
     position: relative;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     z-index: 1;
   }
+}
+.facts {
+  background: linear-gradient(rgba(9, 30, 62, 0.7), rgba(9, 30, 62, 0.7)),
+    url(../img/count-bg.jpg) center center no-repeat;
+  background-size: cover;
 }
 .facts img {
   height: 80px;
@@ -577,11 +565,27 @@ h6,
 
 /* why us */
 .why-us img {
-  height: 80px;
+  height: 150px;
   width: auto;
+  padding: 15px;
+  border-radius: 25%;
+  background-color: #fd0000;
+  background-size: cover;
+  object-fit: fill;
 }
 .why-us .box {
-  height: 253px;
+  height: 350px;
+}
+
+/* ******* Why choose us ******* */
+.why-choose-us img {
+  height: 150px;
+  width: auto;
+  padding: 15px;
+  /* border-radius: 25%;
+  background-color: #fd0000; */
+  /* background-size: cover;
+  object-fit: fill; */
 }
 /* Images Gallry first page Section
 --------------------------------*/
