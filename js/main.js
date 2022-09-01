@@ -143,3 +143,72 @@ $(document).ready(function () {
     ],
   });
 });
+
+// fornt page form hide and show
+$(document).ready(function () {
+  $("#first-form-button").click(function () {
+    $(".service-form-1").hide();
+    $(".service-form-2").slideDown();
+  });
+
+  // 2nd form back button
+  $("#form-second-back-button").click(function () {
+    $(".service-form-2").hide();
+    $(".service-form-1").slideToggle();
+  });
+
+  // 2nd form filed
+  $("#btncheck7,#btncheck8,#btncheck9").click(function () {
+    $(".service-form-2").hide();
+    $(".service-form-3").slideToggle();
+  });
+
+  // 3rd form back button
+  $("#third-form-back-button").click(function () {
+    $(".service-form-3").hide();
+    $(".service-form-2").slideToggle();
+  });
+
+  // 3th form filed
+  $("#btncheck10,#btncheck11,#btncheck12").click(function () {
+    $(".service-form-3").hide();
+    $(".service-form-4").slideToggle();
+  });
+
+  // 4th form back button
+  $("#fourth-form-back-button").click(function () {
+    $(".service-form-4").hide();
+    $(".service-form-3").slideToggle();
+  });
+
+  // 4th form filed
+  $("#fourth-submit-button").click(function () {
+    $(".service-form-4").hide();
+    $(".service-form-5").slideToggle();
+  });
+
+  // 5th form back button
+  $("#fiveth-form-back-button").click(function () {
+    $(".service-form-5").hide();
+    $(".service-form-4").slideToggle();
+  });
+
+  // 5th form filed
+  $(
+    "#btncheck13,#btncheck14,#btncheck15,#btncheck16,#btncheck17,#btncheck18"
+  ).click(function () {
+    $(".service-form-6").slideToggle();
+    $(".service-form-5").hide();
+  });
+
+  // 6th form back button
+  $("#sixth-form-back-button").click(function () {
+    $(".service-form-6").hide();
+    $(".service-form-5").slideToggle();
+  });
+  // 6th form back button
+  // $("#form-sixth-submit-button").click(function () {
+  //   $(".service-form-7").hide();
+  //   $(".service-form-6").slideToggle();
+  // });
+});

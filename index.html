@@ -142,20 +142,17 @@
                 >Services</a
               >
               <div class="dropdown-menu m-0">
-                <a href="about.html" class="dropdown-item">House Maid</a>
-                <a href="vision-mission.html" class="dropdown-item"
-                  >Baby Sitter</a
-                >
-                <a href="why-us.html" class="dropdown-item">Japa Maid</a>
-                <a href="team.html" class="dropdown-item">Elderly Care</a>
-                <a href="certificate.html" class="dropdown-item"
-                  >Patient Care</a
-                >
-                <a href="certificate.html" class="dropdown-item">Cook</a>
+                <a href="house-maid.html" class="dropdown-item">House Maid</a>
+                <a href="house-maid.html" class="dropdown-item">Baby Sitter</a>
+                <a href="house-maid.html" class="dropdown-item">Japa Maid</a>
+                <a href="house-maid.html" class="dropdown-item">Elderly Care</a>
+                <a href="house-maid.html" class="dropdown-item">Patient Care</a>
+                <a href="house-maid.html" class="dropdown-item">Cook</a>
               </div>
             </div>
-            <a href="services.html" class="nav-item nav-link">About Us</a>
-            <a href="training.html" class="nav-item nav-link">Why Us</a>
+            <a href="about-us.html" class="nav-item nav-link">About Us</a>
+            <a href="why-us.html" class="nav-item nav-link">Why Us</a>
+            <a href="our-maid.html" class="nav-item nav-link">Our Maid</a>
             <a href="contact.html" class="nav-item nav-link">Contact Us</a>
           </div>
 
@@ -239,17 +236,19 @@
     </div>
     <!-- Navbar & Carousel End -->
     <div
-      class="container-fluid py-5 wow fadeInUp bg-white multi-form"
+      class="container-fluid py-5 wow fadeInUp bg-form multi-form"
       data-wow-delay="0.1s"
     >
       <div class="container">
         <div class="row">
-          <div class="col-md-7">
-            <div class="service-form shadow bg-info p-4">
-              <div class="text-center mb-3">
-                <h3 class="mb-1">Maid Solution</h3>
-                <p>what do you want your maid to do ?</p>
-              </div>
+          <div class="col-12 col-md-7 shadow bg-info p-4 multi-form-box">
+            <!-- form first section start -->
+            <div class="text-center mb-3">
+              <h3 class="mb-1">Maid Solution</h3>
+              <p>what do you want your maid to do ?</p>
+            </div>
+
+            <div class="service-form-1">
               <div
                 class=""
                 role="group"
@@ -338,15 +337,497 @@
                   </div>
 
                   <div class="col-12 text-center mt-2">
-                    <button type="button" class="btn btn-danger px-5">
+                    <button
+                      type="button"
+                      class="btn btn-danger px-5"
+                      id="first-form-button"
+                    >
                       Continue
                     </button>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- form frist section end -->
+
+            <!-- form 2nd section start -->
+            <div class="service-form-2 hidde-form">
+              <div
+                class=""
+                role="group"
+                aria-label="Basic checkbox toggle button group"
+              >
+                <div
+                  class="d-flex justify-content-between row"
+                  id="select-reuirement"
+                >
+                  <div class="col-12 mt-2 mb-3 d-flex">
+                    <button
+                      type="button"
+                      class="btn btn-danger px-5"
+                      id="form-second-back-button"
+                    >
+                      Back
+                    </button>
+                    <p class="ps-5 pt-2">How Urgent is your requirement</p>
+                  </div>
+                  <div class="col-12 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck7"
+                      autocomplete="off"
+                      name="flexRadioDefault"
+                    />
+                    <label
+                      class="btn btn-outline-danger d-flex px-4"
+                      for="btncheck7"
+                    >
+                      <i class="fas fa-calendar-alt fa-3x mb-2"></i>
+                      <p>
+                        Urgent Requirement <br />
+                        <small>We will contact you as soon as possible</small>
+                      </p>
+                    </label>
+                  </div>
+
+                  <div class="col-12 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck8"
+                      autocomplete="off"
+                      name="flexRadioDefault"
+                    />
+                    <label
+                      class="btn btn-outline-danger d-flex px-4"
+                      for="btncheck8"
+                    >
+                      <i class="fas fa-pager fa-3x mb-2"></i>
+                      <p>
+                        Not So Urgent Requirement <br />
+                        <small>We will contact you within 7 working day</small>
+                      </p>
+                    </label>
+                  </div>
+
+                  <div class="col-12 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck9"
+                      autocomplete="off"
+                      name="flexRadioDefault"
+                    />
+                    <label
+                      class="btn btn-outline-danger d-flex px-4"
+                      for="btncheck9"
+                    >
+                      <i class="fas fa-search fa-3x mb-2"></i>
+                      <p>
+                        Just Checking The Site <br />
+                        <small>We will not contact you</small>
+                      </p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- form 2nd section end -->
+
+            <!-- form 3rd section start -->
+            <div class="service-form-3 hidde-form">
+              <div
+                class=""
+                role="group"
+                aria-label="Basic checkbox toggle button group"
+              >
+                <div
+                  class="d-flex justify-content-between row"
+                  id="select-gender"
+                >
+                  <div class="col-12 mt-2 mb-3 d-flex">
+                    <button
+                      type="button"
+                      class="btn btn-danger px-5"
+                      id="third-form-back-button"
+                    >
+                      Back
+                    </button>
+                    <p class="ps-5 pt-2">Which gender do you prefer?</p>
+                  </div>
+                  <div class="text-center mb-3">
+                    <h4>Select preferred Gender</h4>
+                  </div>
+                  <div class="col-6 col-md-4 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck10"
+                      autocomplete="off"
+                      name="flexRadioGande"
+                    />
+                    <label class="btn btn-outline-danger" for="btncheck10">
+                      <i class="fas fa-male fa-5x mb-2"></i>
+                      <p>Male</p>
+                    </label>
+                  </div>
+
+                  <div class="col-6 col-md-4 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck11"
+                      autocomplete="off"
+                      name="flexRadioGande"
+                    />
+                    <label class="btn btn-outline-danger" for="btncheck11">
+                      <i class="fas fa-female fa-5x mb-2"></i>
+                      <p>Female</p>
+                    </label>
+                  </div>
+
+                  <div class="col-6 col-md-4 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck12"
+                      autocomplete="off"
+                      name="flexRadioGande"
+                    />
+                    <label class="btn btn-outline-danger" for="btncheck12">
+                      <i class="fas fa-restroom fa-5x mb-2"></i>
+                      <p>Any</p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- form 3rd section end -->
+
+            <!-- form 4th section start -->
+            <div class="service-form-4 hidde-form">
+              <div
+                class=""
+                role="group"
+                aria-label="Basic checkbox toggle button group"
+              >
+                <div
+                  class="d-flex justify-content-between row"
+                  id="select-gender"
+                >
+                  <div class="col-12 mt-2 mb-1 d-flex">
+                    <button
+                      type="button"
+                      class="btn btn-danger px-5"
+                      id="fourth-form-back-button"
+                    >
+                      Back
+                    </button>
+                    <p class="ps-5 pt-2">Tell us more about your self</p>
+                  </div>
+
+                  <!-- Form start -->
+                  <form class="row g-3 needs-validation mt-1" novalidate>
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="validationCustom01"
+                        placeholder="Your Name"
+                        required
+                      />
+                      <div class="valid-feedback">Looks good!</div>
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="validationCustom02"
+                        placeholder="Mobile Number"
+                        required
+                      />
+                      <div class="valid-feedback">Looks good!</div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group has-validation">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationCustomUsername"
+                          aria-describedby="inputGroupPrepend"
+                          placeholder="Email ID"
+                          required
+                        />
+                        <div class="invalid-feedback">Correct Emial ID</div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <select
+                        class="form-select"
+                        id="validationCustom04"
+                        required
+                      >
+                        <option selected disabled value="">Choose City</option>
+                        <option>Mumbai</option>
+                        <option>Navi Mumbai</option>
+                        <option>Thane</option>
+                        <option>Pune</option>
+                        <option>Surat</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="validationCustom03"
+                        placeholder="Enter New Password"
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Please provide a password.
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="validationCustom05"
+                        required
+                        placeholder="ReType Password"
+                      />
+                      <div class="invalid-feedback">
+                        Please provide a valid password.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="invalidCheck"
+                          required
+                        />
+                        <label class="form-check-label" for="invalidCheck">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button
+                        type="button"
+                        class="btn btn-danger px-5"
+                        id="fourth-submit-button"
+                      >
+                        Submit form
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- form 4th section end -->
+
+            <!-- form 5th section start -->
+            <div class="service-form-5 hidde-form">
+              <div
+                class=""
+                role="group"
+                aria-label="Basic checkbox toggle button group"
+              >
+                <div
+                  class="d-flex justify-content-between row"
+                  id="select-daily-hour"
+                >
+                  <div class="col-12 mt-2 mb-3 d-flex">
+                    <button
+                      type="button"
+                      class="btn btn-danger px-5"
+                      id="fiveth-form-back-button"
+                    >
+                      Back
+                    </button>
+                    <p class="ps-5 pt-2">
+                      Numer of hours you need the maid for
+                    </p>
+                  </div>
+
+                  <div class="col-6 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck13"
+                      autocomplete="off"
+                      name="daliy-hours-box"
+                    />
+                    <label class="btn btn-outline-danger" for="btncheck13">
+                      <p>1 hour daily</p>
+                      <!-- <br /> -->
+                      <span>Salary 3000 to 4000 per month</span>
+                    </label>
+                  </div>
+
+                  <div class="col-6 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck14"
+                      autocomplete="off"
+                      name="daliy-hours-box"
+                    />
+                    <label class="btn btn-outline-danger" for="btncheck14">
+                      <p>2 hour daily</p>
+                      <!-- <br /> -->
+                      <span>Salary 4000 to 6000 per month</span>
+                    </label>
+                  </div>
+
+                  <div class="col-6 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck15"
+                      autocomplete="off"
+                      name="daliy-hours-box"
+                    />
+                    <label class="btn btn-outline-danger" for="btncheck15">
+                      <p>4 hour daily</p>
+                      <!-- <br /> -->
+                      <span>Salary 6000 to 7000 per month</span>
+                    </label>
+                  </div>
+
+                  <div class="col-6 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck16"
+                      autocomplete="off"
+                      name="daliy-hours-box"
+                    />
+                    <label class="btn btn-outline-danger" for="btncheck16">
+                      <p>8 hour daily</p>
+                      <!-- <br /> -->
+                      <span>Salary 9000 to 11000 per month</span>
+                    </label>
+                  </div>
+
+                  <div class="col-6 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck17"
+                      autocomplete="off"
+                      name="daliy-hours-box"
+                    />
+                    <label class="btn btn-outline-danger" for="btncheck17">
+                      <p>10 hour daily</p>
+                      <!-- <br /> -->
+                      <span>Salary 11000 to 14000 per month</span>
+                    </label>
+                  </div>
+
+                  <div class="col-6 mb-2">
+                    <input
+                      type="radio"
+                      class="btn-check"
+                      id="btncheck18"
+                      autocomplete="off"
+                      name="daliy-hours-box"
+                    />
+                    <label class="btn btn-outline-danger" for="btncheck18">
+                      <p>24 hour daily</p>
+                      <!-- <br /> -->
+                      <span>Salary 15000 or more per month</span>
+                    </label>
+                  </div>
+
+                  <!-- Form start -->
+                </div>
+              </div>
+            </div>
+            <!-- form 5th section end -->
+
+            <!-- form 6th section start -->
+            <div class="service-form-6 hidde-form">
+              <div
+                class=""
+                role="group"
+                aria-label="Basic checkbox toggle button group"
+              >
+                <div
+                  class="d-flex justify-content-between row"
+                  id="select-gender"
+                >
+                  <div class="col-12 mt-2 mb-3 d-flex">
+                    <button
+                      type="button"
+                      class="btn btn-danger px-5"
+                      id="sixth-form-back-button"
+                    >
+                      Back
+                    </button>
+                  </div>
+                  <div class="col-12 text-center">
+                    <p class="mb-0">
+                      The approximate salary for a maid who works 2hour daily is
+                      Rs. 4000 to 6000 per month
+                    </p>
+                  </div>
+
+                  <!-- Form start -->
+                  <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-12">
+                      <select
+                        class="form-select"
+                        id="validationCustom04"
+                        required
+                      >
+                        <option selected disabled value="">
+                          Select Maximum Salary
+                        </option>
+                        <option>2000</option>
+                        <option>3000</option>
+                        <option>4000</option>
+                        <option>5000</option>
+                        <option>6000</option>
+                        <option>7000</option>
+                        <option>8000</option>
+                        <option>9000</option>
+                        <option>10000</option>
+                        <option>11000</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+
+                    <div class="col-12 text-center">
+                      <button
+                        type="button"
+                        class="btn btn-danger px-5"
+                        id="form-sixth-submit-button"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- form 6th section end -->
           </div>
-          <div class="col-md-5"><img src="img/front-image.jpg" /></div>
+          <div class="col-md-5 d-none d-md-block">
+            <img src="img/front-image.png" class="img-fluid" />
+          </div>
         </div>
       </div>
     </div>
@@ -384,7 +865,7 @@
                 <div class="text-center">
                   <a
                     class="text-uppercase btn btn-outline-danger py-2 px-3 mt-2 wow zoomIn"
-                    href="female-security-service.html"
+                    href="house-maid.html"
                     >Read More <i class="bi bi-arrow-right"></i
                   ></a>
                 </div>
@@ -409,7 +890,7 @@
                 <div class="text-center">
                   <a
                     class="text-uppercase btn btn-outline-danger py-2 px-3 mt-2 wow zoomIn"
-                    href="event-security-service.html"
+                    href="house-maid.html"
                     >Read More <i class="bi bi-arrow-right"></i
                   ></a>
                 </div>
@@ -434,7 +915,7 @@
                 <div class="text-center">
                   <a
                     class="text-uppercase btn btn-outline-danger py-2 px-3 mt-2 wow zoomIn"
-                    href="residential-security-service.html"
+                    href="house-maid.html"
                     >Read More <i class="bi bi-arrow-right"></i
                   ></a>
                 </div>
@@ -459,7 +940,7 @@
                 <div class="text-center">
                   <a
                     class="text-uppercase btn btn-outline-danger py-2 px-3 mt-2 wow zoomIn"
-                    href="female-security-service.html"
+                    href="house-maid.html"
                     >Read More <i class="bi bi-arrow-right"></i
                   ></a>
                 </div>
@@ -484,7 +965,7 @@
                 <div class="text-center">
                   <a
                     class="text-uppercase btn btn-outline-danger py-2 px-3 mt-2 wow zoomIn"
-                    href="event-security-service.html"
+                    href="house-maid.html"
                     >Read More <i class="bi bi-arrow-right"></i
                   ></a>
                 </div>
@@ -509,7 +990,7 @@
                 <div class="text-center">
                   <a
                     class="text-uppercase btn btn-outline-danger py-2 px-3 mt-2 wow zoomIn"
-                    href="residential-security-service.html"
+                    href="house-maid.html"
                     >Read More <i class="bi bi-arrow-right"></i
                   ></a>
                 </div>
@@ -976,7 +1457,7 @@
         <div class="row gx-5">
           <div class="col-lg-12 col-md-12">
             <div class="row gx-5">
-              <div class="col-lg-3 col-md-6 col-sm-12 pt-0 pt-lg-5 mb-5">
+              <div class="col-lg-3 col-md-6 col-sm-12 pt-0 pt-lg-5">
                 <div
                   class="section-title section-title-sm position-relative pb-3 mb-4"
                 >
@@ -1005,7 +1486,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-12 pt-0 pt-lg-5 mb-5">
+              <div class="col-lg-3 col-md-6 col-sm-12 pt-0 pt-lg-5">
                 <div
                   class="section-title section-title-sm position-relative pb-3 mb-4"
                 >
@@ -1036,7 +1517,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-12 pt-0 pt-lg-5 mb-5">
+              <div class="col-lg-3 col-md-6 col-sm-12 pt-0 pt-lg-5">
                 <div
                   class="section-title section-title-sm position-relative pb-3 mb-4"
                 >
@@ -1064,7 +1545,7 @@
                   >
                 </div>
               </div>
-              <div class="col-lg-3 col-md-6 col-sm-12 pt-5 mb-5">
+              <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
                 <div
                   class="section-title section-title-sm position-relative pb-3 mb-4"
                 >
@@ -1100,6 +1581,10 @@
                     ><i class="fab fa-instagram fw-normal"></i
                   ></a>
                 </div>
+              </div>
+
+              <div class="col-12 text-center mt-2 border-top">
+                <p class="mt-2">Copyright © By Maid Solutions - 2022</p>
               </div>
             </div>
           </div>
