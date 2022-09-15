@@ -289,7 +289,7 @@ h6,
 .service-form-1 label {
   width: 100%;
   /* height: 200px; */
-  padding: 20px;
+  padding: 5px;
   margin-bottom: 10px;
 }
 .service-form-1 label p {
@@ -1312,7 +1312,7 @@ Our maid slider
   float: left;
 }
 .MultiCarousel .MultiCarousel-inner .item > div {
-  text-align: center;
+  /* text-align: center; */
   /* padding: 10px; */
   border: solid 1px #d4d4d4;
   margin: 10px;
@@ -1341,7 +1341,31 @@ Our maid slider
   box-shadow: 5px 5px 5px #888;
 }
 .pad15 img {
-  height: 300px;
-  width: 100%;
+  height: 250px;
+  width: 250px;
   object-fit: fill;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+}
+.alert {
+  position: relative;
+  padding: 1rem 0.1rem !important;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+.city-service-box {
+  background-color: #dcefff;
+  border-radius: 50%;
+  transition: background-color 2s ease-out 100ms;
+}
+.city-service-box:hover {
+  background-color: #aad3f5;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: background-color 0.5s ease-in 1ms;
+}
+.city-service-box img {
+  height: 150px;
+  width: auto;
 }
