@@ -282,7 +282,7 @@ h6,
 }
 @media (max-width: 576px) {
   .multi-form-box {
-    height: 630px;
+    height: 880px;
     /* width: 100%; */
   }
 }
@@ -597,7 +597,7 @@ h6,
 .team a.btn {
   position: relative;
   margin-top: 10px;
-  padding: 15px 35px;
+  /* padding: 15px 35px; */
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -629,8 +629,9 @@ h6,
 .team .team-text {
   position: relative;
   padding: 25px 15px;
-  text-align: center;
-  background: #f7f7f7;
+  /* text-align: center; */
+  /* background: #f7f7f7; */
+  background: #fdbe33;
   transition: 0.5s;
 }
 
@@ -759,7 +760,7 @@ h6,
   object-fit: fill;
 }
 .why-us .box {
-  height: 350px;
+  /* height: 350px; */
 }
 
 /* ******* Why choose us ******* */
@@ -1338,7 +1339,7 @@ Our maid slider
   background: #ccc;
 }
 .pad15 {
-  box-shadow: 5px 5px 5px #888;
+  /* box-shadow: 5px 5px 5px #888; */
 }
 .pad15 img {
   height: 250px;
